@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input id="ticker" type="text" value="AMD" />
+      <label for="freq">Frequency Check: </label>
+      <select name="freq" id="freq">
+        <option value="1min" selected>1 Minute</option>
+        <option value="5min">5 Minutes</option>
+        <option value="15min">15 Minutes</option>
+        <option value="1hour">1 Hour</option>
+        <option value="4hour">4 Hours</option>
+      </select>
+      <label for="freq">Boundary Check: </label>
+
+      <select name="freq" id="freqBounds">
+        <option value="1min">1 Minute</option>
+        <option value="5min">5 Minutes</option>
+        <option value="15min">15 Minutes</option>
+        <option value="1hour" selected>1 Hour</option>
+        <option value="4hour">4 Hours</option>
+      </select>
+      <div id="return"></div>
+      <input id="go" type="submit" value="GO" />
+      <input id="reset" type="submit" value="Reset" />
+    </div>
+    <!-- <div id="root"></div> -->
+  </body>
+  <!-- <script src="./app.js"></script> -->
+  <!-- <script src="./ss.js"></script> -->
+  <!-- <script src="./api.js"></script> -->
+  <script src="./run.js"></script>
+</html>
